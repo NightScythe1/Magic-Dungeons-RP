@@ -1,0 +1,16 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/iron_axe"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":76001}, "model": "dungeons/melee/cursed_axe"},
+		{"predicate": {"custom_model_data":76002}, "model": "dungeons/melee/great_axeblade"},
+		{"predicate": {"custom_model_data":76003}, "model": "dungeons/melee/suns_grace"},
+		{"predicate": {"custom_model_data":76004}, "model": "dungeons/melee/bone_cudgel"},
+		{"predicate": {"custom_model_data":76005}, "model": "dungeons/melee/encrusted_anchor"},
+		{"predicate": {"custom_model_data":76006}, "model": "dungeons/melee/firebrand"},
+		{"predicate": {"custom_model_data":76007}, "model": "dungeons/melee/flail"}
+	]
+}

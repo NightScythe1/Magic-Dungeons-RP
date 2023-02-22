@@ -1,0 +1,20 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/iron_sword"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":76001}, "model": "dungeons/melee/broadsword"},
+		{"predicate": {"custom_model_data":76002}, "model": "dungeons/melee/chill_gale_knife"},
+		{"predicate": {"custom_model_data":76003}, "model": "dungeons/melee/masters_katana"},
+		{"predicate": {"custom_model_data":76004}, "model": "dungeons/melee/hawkbrand"},
+		{"predicate": {"custom_model_data":76005}, "model": "dungeons/melee/heartstealer"},
+		{"predicate": {"custom_model_data":76006}, "model": "dungeons/melee/dark_katana"},
+		{"predicate": {"custom_model_data":76007}, "model": "dungeons/melee/dancers_sword"},
+		{"predicate": {"custom_model_data":76008}, "model": "dungeons/melee/resolute_tempest_knife"},
+		{"predicate": {"custom_model_data":76009}, "model": "dungeons/melee/grave_bane"},
+		{"predicate": {"custom_model_data":76010}, "model": "dungeons/melee/nightmares_bite"},
+		{"predicate": {"custom_model_data":76011}, "model": "dungeons/melee/venom_glaive"}
+	]
+}
